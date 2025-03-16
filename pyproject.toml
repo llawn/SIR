@@ -1,0 +1,21 @@
+[project]
+name = "SIR"
+version = "0.0.1"
+description = "Image denoising using K-SVD and OMP algorithms"
+authors = [
+    { name = "Dylan Marin", email = "llawn06@gmail.com" }
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "matplotlib>=3.10.1",
+    "numpy>=2.2.4",
+    "scikit-image>=0.25.2",
+    "scikit-learn>=1.6.1",
+    "scipy>=1.15.2",
+]
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
